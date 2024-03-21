@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Day of the Week Message</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h2>Enter a Day of the Week</h2>
+    <form action="/day-message/" method="post">
+        <input type="text" name="day" required>
+        <button type="submit">Submit</button>
+    </form>
+    {% if message %}
+        <p><strong>Message: </strong>{{ message }}</p>
+    {% endif %}
+</body>
+</html>
+

@@ -1,0 +1,15 @@
+body, html {
+    height: 100%;
+    margin: o;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #756cf0;
+    text-align: center;
+}
+
+h1, h2, p {
+    margin: 10px 0;
+}
